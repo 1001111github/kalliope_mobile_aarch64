@@ -1,0 +1,14 @@
+# Working phone call neuron. Add to the brains directory as phone.yml
+# 
+- name: "make_phonecall"
+  signals:
+  - order: "phone {{ person }}"
+  neurons:
+  - say:
+      message: "Calling {{ person }}"
+  - shell:
+      cmd: "gnome-calls --dial {{ contacts[person] }}"
+      async: TRUE
+
+# Currently the contact phone numbers are manually stored within Kalliope. Next is to query gnome-contacts or evolution for the phone numbers. 
+

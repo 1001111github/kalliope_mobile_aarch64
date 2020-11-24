@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Kaliope
+Comment=
+Exec=pkill -18 kalliope
+Icon=/home/djm/Desktop/SYSTEMS/Bluboo/microphone-foam-red-icon.png
+Path=\\
+Terminal=true
+StartupNotify=false
