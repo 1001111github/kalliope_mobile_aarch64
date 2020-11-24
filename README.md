@@ -3,9 +3,11 @@
 Information, links, libraries and resources for building and using Kalliope on aarch64. 
 Arch, Manjaro and Mobian all sort of supported, lol.
 
+<A href="https://forum.pine64.org/showthread.php?tid=12055">Build instructions for Mobian, Arch and Manjaro</A>
+
 libttspico* Libraries
 
-The follwoing libraries are not available in the Arch aarch64 repositories.
+The following libraries are not available in the Arch aarch64 repositories.
 I did the following on an x86 Arch machine. I have not built debtap on aarch64 
 
 debtap each package. During the build edit each package name and remove the "-git" from it
